@@ -1,0 +1,40 @@
+p {
+  background-color: green;
+  color: white;
+}
+
+/* selector */
+/* general selector */
+* {
+  color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* tag selector */
+table,
+p {
+  color: green;
+  background-color: purple;
+}
+
+/* class selector */
+
+.myfood {
+  color: blue;
+  font-size: 2rem;
+}
+
+/* id selector */
+#favorite {
+  background-color: green;
+  color: white;
+}
+
+body {
+  background-color: #8b3dff;
+  background-image: url(img/f2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}

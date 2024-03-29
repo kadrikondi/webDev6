@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my website</title>
+  <link rel="shortcut icon" href="img/f3.jpg" type="image/x-icon">
+
+
+<!-- internal -->
+  <style>
+ h1{
+  background-color: blue;
+  color: white;
+ }
+
+  </style>
+
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <marquee behavior="scroll" direction="up" scrollamount="40">  <h1>WELCOME TO LAGOS</h1></marquee>
+    <!-- inline style -->
+    <h1 style="color: red; background-color: yellow;" >Welcome to html</h1>
+    <!-- text formating -->
+    <p>
+      Lorem ipsum dolor, sit amet <b>consectetur </b>adipisicing elit. Doloribus
+      cumque explicabo, animi eaque <i>this is melodia coding</i> asperiores
+      sit, assumenda reiciendis dolorum deleniti nostrum perferendis
+      <div> i love html</div> quisquam, odit expedita sint eum est obcaecati
+      cum nisi! <del>N</del>
+      <mark>Good</mark>
+
+      5 <sup>2</sup> log <sub>10</sub>
+    </p>
+<h1>This is Melodia Coding Academy</h1>
+    <!-- list in html -->
+    <!-- ordered list -->
+    <ol type="A">
+        <h3>List of cars</h3>
+        <li>Benz</li>
+        <li>Toyota</li>
+        <li>Lamboghini</li>
+        <li>Tesla</li>
+    </ol>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, incidunt at pariatur necessitatibus libero asperiores totam eos iure velit beatae voluptatem quos! Eius commodi id incidunt nobis sint facere cumque.</p>
+    <!-- shorthand -->
+
+    <!-- ol>li*5 -->
+    <!-- unordered list  -->
+    <ul type="circle">
+        <h3>List of food</h3>
+        <li class="myfood">Rice</li>
+        <li class="myfood" id="favorite">Beans</li>
+        <li class="myfood">Yam</li>
+        <li>Gari</li>
+    </ul>
+
+    <!-- link inhtml -->
+  <!-- internal link -->
+    <a href="index.html"> home</a>
+
+    <!-- external -->
+    <a href="https://google.com" target="_blank"> go to google</a>
+<!-- image -->
+<img src="../WebDevGift/f.jpg" alt="food">
+
+<!-- table  -->
+<h1>Hello Lagos we are here</h1>
+<table border="1" style="border-collapse: collapse; width:100% ; text-align: center;">
+
+  <tr>
+    <th>S/n</th>
+    <th>Name</th>
+    <th>School</th>
+    <th>phone no</th>
+    <th>location</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>john Dan</td>
+    <td>Unilag</td>
+    <td>0808654890075</td>
+    <td>Lagos</td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td>ola samuel</td>
+    <td>UI</td>
+    <td>9078876654544</td>
+    <td>ibadan</td>
+
+  </tr>
+
+
+  <tr>
+    <td>3</td>
+    <td > Tinubu  jagaban</td>
+    <td >Uniabuja</td>
+    <td>9078876654544</td>
+    <td>Asorock</td>
+
+  </tr>
+
+  <tr>
+    <td>4</td>
+    <td> Sanwo olu</td>
+    <td>Laspotec</td>
+    <td>9078876654544</td>
+    <td>Ikeja</td>
+
+  </tr>
+
+  
+  <tr>
+    <td>5</td>
+    <td> Raji fashola</td>
+    <td>Laspotec</td>
+    <td>9078876654544</td>
+    <td>Lekki</td>
+
+  </tr>
+</table>
+
+
+<!-- iframe -->
+<iframe src="https://melodiacodingacademy.com" frameborder="0" width="700"  height="700"></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P94OoW2CvvM?si=B7vmOE3qtIbkHpEd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- multimedia -->
+
+<video controls >
+
+  <source src="video/Front End Developer Roadmap 2024.mp4" type="video/mp4">
+</video>
+
+<!-- audio -->
+<audio  controls>
+
+  <source src="video/Chapter 1- Think And Grow Rich.mp3" type="audio/mp3">
+</audio>
+
+
+
+<!-- form -->
+
+<form >
+<h2>Registration form</h2>
+
+<fieldset> <legend>Bio data</legend>
+<label for="">FirstName</label> <input type="text" maxlength="10" required > 
+<br>
+<br>
+<label for="">Lastname</label> <input type="text" disabled hidden > 
+ <br>
+<br>
+<label for="">Email</label> <input type="email" placeholder="enter your email eg ola@gmail.com"> 
+<br>
+<br>
+<label for="">Dateof birth</label> <input type="date" name="" id="">
+<br><br>
+
+<label for="">Gender</label> <input type="radio" name="Gender"> Male <input type="radio" name="Gender"> Female
+<br><br>
+</fieldset>
+
+<fieldset>
+  <legend>Education</legend>
+<label for="">Hobbies</label> <input type="checkbox"> Swimming <input type="checkbox"> Dancing <input type="checkbox">Cooking
+<br><br>
+<label for="">photo</label> <input type="file">
+<br><br>
+
+<label for="">password</label> <input type="password" placeholder="password"> <br><br>
+<label for="">age</label> <input type="number" value="3">
+<br><br>
+<label for="">phone</label> <input type="tel">
+<br><br>
+  
+<label for="">State of origin</label> 
+<select >
+  <option value="Lagos">Lagos</option>
+  <option value="Abia">Abia</option>
+  <option value="">Adamawa</option>
+  <option value="">Ogun</option>
+  <option value="">Oyo</option>
+  <option value="">Benue</option>
+  <option value="">kogi</option>
+  <option value="">Benue</option>
+  
+</select>
+<br><br>
+<label for="">message</label>
+<textarea name="" id="" cols="40" rows="5"></textarea>
+<br> <br>
+</fieldset>
+<input type="submit" value="Submit">
+<button>Login</button>
+<input type="button" value="Register">
+</form>
+
+
+
+
+
+
+  </body>
+</html>

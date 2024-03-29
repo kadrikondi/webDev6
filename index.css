@@ -1,0 +1,12 @@
+#good {
+  /* border-style: double;
+  border-width: 12px;
+  border-color: red; */
+
+  /* shorthand */
+  border: 12px solid rgb(142, 5, 5);
+
+  width: 400px;
+  height: 400px;
+  border-radius: 20px 200px;
+}
