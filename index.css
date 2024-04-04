@@ -3,7 +3,9 @@ body {
   margin: 0px;
   font-family: Roboto;
 }
-
+#h1 {
+  position: fixed;
+}
 .container {
   background-color: green;
   width: 1318px;
@@ -19,7 +21,7 @@ body {
   border: 12px solid rgb(142, 5, 5);
   outline: 5px solid rgb(247, 251, 6);
 
-  width: 50%;
+  max-width: 50%;
   /* height: 400px; */
   /* border-radius: 20px 200px; */
   /* margin-top: 100px;
@@ -45,6 +47,10 @@ body {
   font-weight: 700;
   /* font-style: italic; */
 }
+#good p::first-letter {
+  font-size: 5rem;
+  color: yellow;
+}
 #good h3 {
   text-decoration-line: underline;
   text-decoration-color: rgb(145, 255, 0);
@@ -57,4 +63,64 @@ body {
 
 #good h2 {
   text-shadow: 5px 6px 5px rgb(9, 3, 3);
+}
+#nigeria:hover {
+  color: lightgreen;
+}
+
+/* a:visited {
+  color: rgb(243, 18, 18);
+} */
+#signup {
+  border: 2px solid green;
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 12px 20px;
+  color: black;
+}
+
+#signup:hover {
+  background-color: green;
+  color: white;
+  /* display: hidden; */
+}
+
+.article {
+  background-color: gray;
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  left: 900px;
+  top: 400px;
+  overflow: auto;
+}
+
+.swallow {
+  float: left;
+  width: 25%;
+  margin: 10px;
+  text-align: center;
+  padding-top: 20px;
+  box-shadow: 1px 1px 10px black;
+  opacity: 0.5;
+}
+.pouded {
+  width: 35%;
+}
+.swallow:hover {
+  opacity: 1;
+}
+.swallow img {
+  text-align: center;
+  width: 80%;
+  height: 250px;
+}
+.clearfix {
+  clear: both;
+}
+
+#center {
+  display: block;
+  width: 300px;
+  margin: 0px auto;
 }
